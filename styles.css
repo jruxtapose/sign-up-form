@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('/fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('/fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 44%;
+    min-width: 300px;    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 10px;
+    margin-top: auto;
+    background-color: rgb(0 0 0 / 45%);
+    width: 100%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.logo > span {
+    font-size: 8em;
+    font-family: norsebold;
+    color: white;
+}
+
+.photo-credit {
+    margin-top: auto;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.right-top,
+.right-middle,
+.right-bottom {
+    display: flex;
+    flex: 1 0 auto;
+    padding-left: 20px;
+}
+
+.right-top {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    width: 100%;
+    box-shadow: 0 5px 5px lightgray;
+}
+
+.right-top div {
+    width: 70%;
+}
+
+.right-top > :nth-child(3) {
+    padding-top: 1em;
+}
+
+.right-middle {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 5px 5px lightgray;
+}
+
+.right-middle form {
+    width: 60%;
+    min-width: 500px;
+}
+
+.right-middle > :nth-child(1) {
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
+
+.right-middle label {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.right-middle input{
+    border-radius: .2em;
+}
+
+.page-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+}
+
+.right-bottom button {
+    padding: 20px 80px;
+    background-color: green;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: .5em;
+    width: 100%;
+}
+
+.right-bottom {
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    padding-left: .6em;
+    font-weight: bold;
+    color: green;
+}
