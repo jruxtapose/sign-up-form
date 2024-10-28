@@ -134,7 +134,11 @@ input:required:invalid {
     border: 1px solid red;
 }
 
-.right-bottom button {
+#submit-form {
+    display: none;
+}
+
+.right-bottom label {
     padding: 20px 80px;
     background-color: green;
     font-family: sans-serif;
@@ -142,6 +146,15 @@ input:required:invalid {
     font-weight: bold;
     border-radius: .5em;
     width: 100%;
+}
+
+.right-bottom label:hover,
+.right-bottom label:focus {
+    background-color: darkgreen;
+}
+
+.right-bottom label:active {
+    background-color: yellow;
 }
 
 .right-bottom {
@@ -153,11 +166,10 @@ input:required:invalid {
 
 a {
     text-decoration: none;
-    color: black;
+    color: green;
 }
 
 .link {
     padding-left: .6em;
     font-weight: bold;
-    color: green;
 }
