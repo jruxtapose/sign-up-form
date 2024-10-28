@@ -130,6 +130,10 @@ body {
     width: calc(50% - 10px);
 }
 
+input:required:invalid {
+    border: 1px solid red;
+}
+
 .right-bottom button {
     padding: 20px 80px;
     background-color: green;
