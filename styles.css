@@ -28,6 +28,7 @@ body {
     background-size: cover;
     width: 44%;
     min-width: 300px;    
+    min-height: 600px;
 }
 
 .logo {
@@ -53,6 +54,8 @@ body {
 
 .photo-credit {
     margin-top: auto;
+    color: white;
+    padding-bottom: 10px;
 }
 
 .right-side {
